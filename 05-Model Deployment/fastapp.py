@@ -5,7 +5,7 @@ import uvicorn
 import sys
 
 model_file = './uv_project/pipeline_v1.bin'
-# ✅ LOAD YOUR MODEL AND DICTVECTORIZER
+
 with open(model_file, 'rb') as f:
     dv,model = pickle.load(f)
 
