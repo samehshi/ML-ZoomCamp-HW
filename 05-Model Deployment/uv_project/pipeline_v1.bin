@@ -1,0 +1,16 @@
+--2025-10-21 14:01:20--  https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/master/cohorts/2025/05-deployment/pipeline_v1.bin
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/refs/heads/master/cohorts/2025/05-deployment/pipeline_v1.bin [following]
+--2025-10-21 14:01:21--  https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/refs/heads/master/cohorts/2025/05-deployment/pipeline_v1.bin
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1300 (1.3K) [application/octet-stream]
+Saving to: ‘pipeline_v1.bin’
+
+     0K .                                                     100% 72.0M=0s
+
+2025-10-21 14:01:21 (72.0 MB/s) - ‘pipeline_v1.bin’ saved [1300/1300]
+
