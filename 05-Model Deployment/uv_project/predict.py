@@ -8,11 +8,7 @@ client = {
     "annual_income": 80304.0
 }
 
-client2 = {
-    "lead_source": "organic_search",
-    "number_of_courses_viewed": 4,
-    "annual_income": 80304.0
-}
 
-response = requests.post(url, json=client2)
+
+response = requests.post(url, json=client)
 print(response.json())

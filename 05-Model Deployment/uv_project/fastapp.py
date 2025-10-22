@@ -4,12 +4,10 @@ from pydantic import BaseModel
 import uvicorn
 import sys
 
-model_file = './uv_project/pipeline_v1.bin'
+model_file = '/code/pipeline_v2.bin'
 
 with open(model_file, 'rb') as f:
     dv,model = pickle.load(f)
-
-
 
 class Lead(BaseModel):
     lead_source: str
